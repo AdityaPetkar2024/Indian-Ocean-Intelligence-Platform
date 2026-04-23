@@ -15,11 +15,12 @@ from pathlib import Path
 load_dotenv()
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
+#ADD YOUR OWN POSTGRESQL CREDENTIALS
 DB_CONFIG = {
-    "host": "localhost",
-    "database": "argo_db12",
-    "user": "argo_user1",
-    "password": "argo123"
+    "host": "",
+    "database": "",
+    "user": "",
+    "password": ""
 }
 
 REGIONS = {
