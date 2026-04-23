@@ -148,6 +148,6 @@ Planned capabilities:
 ---
 
 ## 👨‍💻 Author
-
+Aditya Petkar
 Built as a high-performance ocean intelligence system combining data engineering, machine learning, and geospatial analytics.
 
