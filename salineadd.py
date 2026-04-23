@@ -20,7 +20,7 @@ st.title("🌊 ARGO Float Explorer — Indian Ocean")
 st.markdown("Real-time oceanographic data from INCOIS ARGO floats | 14.5M measurements")
 
 def get_conn():
-    return create_engine("postgresql://argo_user1:argo123@localhost/argo_db12")
+    return create_engine("postgresql:")
 
 @st.cache_data
 def get_stats():
